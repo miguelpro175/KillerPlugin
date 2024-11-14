@@ -1,0 +1,24 @@
+name: KillerPlugin
+version: '1.0'
+main: br.com.migueleb.killerplugin.KillerPlugin
+api-version: 1.16
+commands:
+  killer:
+    description: Participa do evento Killer
+    usage: /<command>
+  killeriniciar:
+    description: Inicia o evento Killer
+    usage: /<command>
+  killerset:
+    description: Define o local do evento Killer
+    usage: /<command>
+permissions:
+  killer.join:
+    description: Permissão para participar do evento Killer
+    default: true
+  killer.start:
+    description: Permissão para iniciar o evento Killer
+    default: op
+  killer.setlocation:
+    description: Permissão para definir o local do evento
+    default: op
